@@ -9,4 +9,9 @@ CREATE TABLE employee(
     PRIMARY KEY(id)
 );
 
-DESCRIBE employee;
+INSERT INTO employee VALUES 
+(1, 'Lazaro', 1000),
+(2, 'Fer', 1000),
+(3, 'Amanda', 1000),
+(4, 'Jose', 1000),
+(5, 'Vic', 1000);
