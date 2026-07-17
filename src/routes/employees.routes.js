@@ -12,7 +12,8 @@ router.get('/employees/:id',getEmployee)
 
 router.post('/employees',createEmployee)
 
-router.put('/employees', updateEmployee)
+router.patch('/employees/:id', updateEmployee)
+// if we want to update all the fields we can use put, but if we want to update only some fields we can use patch, so we can use patch for this case.
 
 router.delete('/employees/:id', deleteEmployee)
 
